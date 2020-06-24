@@ -4,6 +4,7 @@ namespace AppBundle\Controller;
 
 use AppBundle\Entity\Genus;
 use AppBundle\Entity\GenusNote;
+use AppBundle\Entity\User;
 use AppBundle\Service\MarkdownTransformer;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -36,13 +37,17 @@ class GenusController extends Controller
         $genusNote->setCreatedAt(new \DateTime('-1 month'));
         $genusNote->setGenus($genus);
 
+        /** @var User $user */
+        $user = $em->getRepository(User::class)->findOneBy(['email' => 'aquanaut1@example.org']);
+        $genus->addGenusScientist($user);
+
         $em->persist($genus);
         $em->persist($genusNote);
         $em->flush();
 
         return new Response(sprintf(
             '<html><body>Genus created! <a href="%s">%s</a></body></html>',
-            $this->generateUrl('genus_show', ['genusName' => $genus->getSlug()]),
+            $this->generateUrl('genus_show', ['slug' => $genus->getSlug()]),
             $genus->getName()
         ));
     }
