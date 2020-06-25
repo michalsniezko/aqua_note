@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd4d9044-914a-41da-b2a7-f4a9c6b21204" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AppBundle/Repository/GenusScientistRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/admin/genus/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/admin/genus/_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Form/GenusScientistEmbeddedForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Form/GenusScientistEmbeddedForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/GenusScientist.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/GenusScientist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592998714528</updated>
       <workItem from="1592998715941" duration="4446000" />
-      <workItem from="1593003169523" duration="11694000" />
+      <workItem from="1593003169523" duration="12732000" />
     </task>
     <servers />
   </component>
@@ -143,30 +147,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593000277159" />
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1593074232960">
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1593079174245">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593074232960" />
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593079174245" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1593001591817">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1050@0.0.1920.1050" timestamp="1593001591817" />
-    <state x="715" y="248" key="NewPhpClassDialog" timestamp="1593071852592">
+    <state x="715" y="248" key="NewPhpClassDialog" timestamp="1593079137169">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="715" y="248" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593071852592" />
+    <state x="715" y="248" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593079137169" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1593074613978">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1593074613978" />
-    <state x="681" y="266" width="570" height="524" key="StructurePopup" timestamp="1593076981417">
+    <state x="681" y="266" width="570" height="524" key="StructurePopup" timestamp="1593078532667">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="681" y="266" width="570" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1593076981417" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1593077839109">
+    <state x="681" y="266" width="570" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1593078532667" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1593079119195">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1593077839109" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1593079119195" />
     <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1593002858413">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -175,9 +179,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="601" y="251" width="700" height="530" key="recent.locations.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1593070206286" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1593073960361">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1593079125099">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1593073960361" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1593079125099" />
   </component>
 </project>
